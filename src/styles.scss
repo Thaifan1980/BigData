@@ -1,0 +1,16 @@
+@import '~@angular/material/theming';
+
+@import '~@swimlane/ngx-datatable/release/index.css';
+@import '~@swimlane/ngx-datatable/release/themes/material.css';
+@import '~@swimlane/ngx-datatable/release/assets/icons.css';
+
+html {
+    font-family: 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+html, body {
+  width: 75%;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+}

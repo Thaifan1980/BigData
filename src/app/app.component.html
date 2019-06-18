@@ -1,0 +1,20 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }} :)!
+  </h1>
+  <h2>
+    Here are some data with {{ data.rows.length }} records
+  </h2>
+</div>
+
+<ngx-datatable
+    class="material"
+    [rows]="data.rows"
+    [columns]="data.columns"
+    [columnMode]="'force'"
+    [virtualization]='true'
+    [headerHeight]="50"
+    [rowHeight]="50"
+    [scrollbarV]="true"
+    [footerHeight]="50">
+</ngx-datatable>
