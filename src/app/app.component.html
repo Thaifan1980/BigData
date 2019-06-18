@@ -3,7 +3,7 @@
     Welcome to {{ title }} :)!
   </h1>
   <h2>
-    Here are some data with {{ data.rows.length }} records
+    Here is some data with {{ data.rows.length }} records
   </h2>
 </div>
 
@@ -12,9 +12,9 @@
     [rows]="data.rows"
     [columns]="data.columns"
     [columnMode]="'force'"
-    [virtualization]='true'
     [headerHeight]="50"
     [rowHeight]="50"
+    [footerHeight]="50"
     [scrollbarV]="true"
-    [footerHeight]="50">
+    [virtualization]='true'>
 </ngx-datatable>
